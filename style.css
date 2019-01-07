@@ -49,6 +49,8 @@ table {
 /* Actual CSS */
 body{
 	background-color: rgb(50, 164, 199);
+}
+#description{
 	text-align:center;
 }
 h1 {
