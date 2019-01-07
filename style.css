@@ -1,0 +1,192 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Actual CSS */
+body{
+	background-color: rgb(50, 164, 199);
+	text-align:center;
+}
+h1 {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 130%;
+	margin: 15px;
+}
+#formContainer {
+	background-color: white;
+	margin:auto auto;
+	width:640px;
+}
+.sentence{
+	text-align:center;
+	margin: 10px 10px;
+	padding: 15px;
+}
+#survey-form {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 8;
+}
+#name-label {
+	grid-row:1;
+	grid-column:1;
+	justify-self: end;
+	margin: 10px 10px;
+}
+#name {
+	grid-row:1;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 240px;
+}
+#email-label {
+	grid-row:2;
+	grid-column:1;
+	justify-self: end;
+	margin: 10px 10px;
+}
+#email {
+	grid-row:2;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 240px;
+}
+#number-label {
+	grid-row:3;
+	grid-column:1;
+	justify-self: end;
+	margin: 10px 10px;
+}
+#number {
+	grid-row:3;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 240px;
+}
+#dropdown-label {
+	grid-row:4;
+	grid-column:1;
+	justify-self: end;
+	text-align: end;
+	margin: 10px 10px;
+	width:240px;
+}
+#dropdown {
+	grid-row:4;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 120px;
+	height: 30px;
+}
+#recommendation-label {
+	grid-row:5;
+	grid-column:1;
+	justify-self: end;
+	text-align: end;
+	margin: 10px 10px;
+	width:240px;
+}
+#recommendation {
+	grid-row:5;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 120px;
+}
+#most-liked-label {
+	grid-row:6;
+	grid-column:1;
+	justify-self: end;
+	text-align: end;
+	margin: 10px 10px;
+	width:240px;
+}
+#most-liked {
+	grid-row:6;
+	grid-column:2;
+	margin: 10px 10px;
+	Width: 120px;
+	height: 30px;
+}
+#suggestions-label {
+	grid-row:7;
+	grid-column:1;
+	justify-self: end;
+	text-align: end;
+	margin: 10px 10px;
+	width:240px;
+}
+#suggestions {
+	grid-row:7;
+	grid-column:2;
+	margin: 10px 10px;
+}
+#comments-label {
+	grid-row:8;
+	grid-column:1;
+	justify-self: end;
+	text-align: end;
+	margin: 20px 10px;
+	width:240px;
+}
+#comments {
+	grid-row:8;
+	grid-column:2;
+	margin: 20px 10px;
+	width:240px;
+}
+#btn {
+	grid-row: 9;
+	grid-column: 1 / span 2;
+	width:80px;
+	height:30px;
+	justify-self: center;
+	background:rgb(75, 145, 192);
+	border: solid rgb(75, 145, 192) 2px;
+	color:white;
+	border-radius: 5px;
+}
